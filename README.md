@@ -19,7 +19,12 @@ Instalar las dependencias
 > pip install -r requirements.txt
 
 ## Proyectos
-En estos días voy a estar subiendo los proyectos, mientras tanto, puedes dar un paseo por los recursos útiles!
+- [El famoso juego "Piedra, Papel o Tijeras"](projects/rock_paper_scissors.py)
+- [Cuenta la cantidad de palabras que tiene un string](projects/count_words.py)
+- [Juego de dados](projects/dice_game.py)
+- [Juego de Ahorcado](projects/hangman.py)
+- [Lee una frase de la consola y la censura](projects/bad_word_detector.py)
+- [Calculadora Simple](projects/calculator.py)
 
 ## Otros recursos útiles
 A continuación, te comparto otros links que te pueden resultar elementales para continuar tu camino en el desarrollo de software:
