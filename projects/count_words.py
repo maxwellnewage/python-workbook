@@ -3,12 +3,18 @@ Cuenta la cantidad de palabras que tiene un string
 """
 
 
+def remove_punctuation_marks(text: str):
+    punctuation_marks = [".", ",", ";", ":", "!", "?", "-", "_", "(", ")"]
+
+    for mark in punctuation_marks:
+        text = text.replace(mark, "")
+
+    return text
+
+
 def count_words(text):
     text = text.lower()
-
-    punctuation_marks = [".", ",", ";", ":", "!", "?", "-", "_", "(", ")"]
-    for mark in punctuation_marks:
-        text = text.replace(mark, " ")
+    text = remove_punctuation_marks(text)
 
     words = text.split()
 
