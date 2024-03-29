@@ -8,7 +8,7 @@ import random
 def get_word_lines(word):
     guess_word = []
 
-    for _ in chosen_word:
+    for _ in word:
         guess_word.append("_")
 
     return guess_word
